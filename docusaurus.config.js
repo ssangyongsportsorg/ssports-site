@@ -66,7 +66,7 @@ const config = {
           src: 'https://img.ssangyongsports.eu.org/logo2.png',
         className: 'custom-navbar-logo-class',
         style: {backgroundColor: 'transparent'},
-        hideOnScroll: true,
+       
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
