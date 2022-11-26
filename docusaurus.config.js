@@ -62,7 +62,7 @@ const config = {
     ({
       navbar: {
         hideOnScroll: true,
-        style: {backgroundColor: 'transparent'},
+        
         logo: {
           alt: '雙龍體育 Logo',
           src: 'https://img.ssangyongsports.eu.org/logo2.png',
