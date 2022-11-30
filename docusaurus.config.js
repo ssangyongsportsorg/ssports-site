@@ -117,7 +117,7 @@ const config = {
           announcementBar: {
       id: 'announcementBar-2',
       content:
-        '新網站已正式發布,任何問題聯繫 <a target="_blank" rel="noopener noreferrer" href="maintain@ssangyongsports.org">電電子郵件',
+        '新網站已正式發布,任何問題聯繫 <a target="_blank" rel="noopener noreferrer" href="https://ssport.cf/W">電子郵件',
       backgroundColor: '#84C1FF',
       textColor: '#091E42',
       isCloseable: false,
