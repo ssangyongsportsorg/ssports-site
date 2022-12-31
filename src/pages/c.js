@@ -15,18 +15,7 @@ export default function Hello() {
 
 <section className="formcarry-container">
       <h1 style={{ textAlign: "left" }}>與我們聯絡</h1>
-<>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
+
   <>
   <p>&nbsp;</p>
   <p>
@@ -40,15 +29,7 @@ export default function Hello() {
   </p>
 </>
   <form action="#" method="POST" encType="multipart/form-data">
-    <div className="formcarry-block">
-      <label htmlFor="fc-generated-1-name">Full Name</label>
-      <input
-        type="text"
-        name="name"
-        id="fc-generated-1-name"
-        placeholder="Your first and last name"
-      />
-    </div>
+
     <div className="formcarry-block">
       <label htmlFor="fc-generated-1-email">Your Email Address</label>
       <input
