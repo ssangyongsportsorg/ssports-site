@@ -81,10 +81,7 @@ export default function Hello() {
     </div>
     <div className="formcarry-block">
       <button type="submit">Send</button>
-    </div>
-  </form>
-</section>        
-<>
+    <>
   <p>&nbsp;</p>
   <p>
     <br />
@@ -120,6 +117,10 @@ export default function Hello() {
     <br />
   </p>
 </>
+</div>
+  </form>
+</section>        
+
 </p>
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 
