@@ -12,6 +12,8 @@ export default function Hello() {
           height: '50vh',
           fontSize: '20px',
         }}>
+    <h1 style={{ textAlign: "left" }}>與我們聯絡</h1>
+
 <section className="formcarry-container">
   <>
   <p>&nbsp;</p>
