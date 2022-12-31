@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 export default function Hello() {
   return (
-    <Layout title="聯絡" description="聯絡我們">
+    <Layout title="聯絡" description="聯絡雙龍體育">
       <div
         style={{
           display: 'flex',
@@ -13,16 +13,8 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-   <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
- <>
+<section className="formcarry-container">
+  <>
   <p>&nbsp;</p>
   <p>
     <br />
@@ -34,8 +26,7 @@ export default function Hello() {
     <br />
   </p>
 </>
-     
- <form action="#" method="POST" encType="multipart/form-data">
+  <form action="#" method="POST" encType="multipart/form-data">
     <div className="formcarry-block">
       <label htmlFor="fc-generated-1-name">Full Name</label>
       <input
@@ -81,33 +72,10 @@ export default function Hello() {
 </div>
 
   </form>
-</section>       
-   <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-<>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-
+</section>        
+</p>
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
-</div>
 
-        </p>
       </div>
     </Layout>
   );
