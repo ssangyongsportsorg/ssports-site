@@ -58,6 +58,8 @@ export default function Hello() {
     </div>
     <div className="formcarry-block">
       <button type="submit">Send</button>
+      <h1 style={{ textAlign: "left" }}>與我們聯絡</h1>
+
 <>
   <p>&nbsp;</p>
   <p>
@@ -70,7 +72,6 @@ export default function Hello() {
     <br />
   </p>
 </>
-      <h1 style={{ textAlign: "left" }}>與我們聯絡</h1>
 
 </div>
 
