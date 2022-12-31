@@ -12,7 +12,6 @@ export default function Hello() {
           height: '50vh',
           fontSize: '20px',
         }}>
-        <p>
 <section className="formcarry-container">
   <>
   <p>&nbsp;</p>
@@ -73,7 +72,6 @@ export default function Hello() {
 
   </form>
 </section>        
-</p>
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 
       </div>
