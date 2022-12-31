@@ -37,8 +37,6 @@ function contact() {
 </div>
   </form>
 </section>        
-
-</p>
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
   )
 }
