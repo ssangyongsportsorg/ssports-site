@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 export default function Hello() {
   return (
-    <Layout title="聯絡" description="聯絡我們">
+    <Layout title="Hello" description="Hello React Page">
       <div
         style={{
           display: 'flex',
@@ -13,8 +13,6 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
- 
-     
  <section className="formcarry-container">
   <form action="#" method="POST" encType="multipart/form-data">
     <div className="formcarry-block">
@@ -48,14 +46,9 @@ export default function Hello() {
       <button type="submit">Send</button>
     </div>
   </form>
-</section>
-        <p>
-
-
+</section>        </p>
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
-</div>
 
-        </p>
       </div>
     </Layout>
   );
