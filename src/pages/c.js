@@ -14,6 +14,18 @@ export default function Hello() {
         }}>
         <p>
 <section className="formcarry-container">
+  <>
+  <p>&nbsp;</p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+  <p>
+    <br />
+  </p>
+</>
   <form action="#" method="POST" encType="multipart/form-data">
     <div className="formcarry-block">
       <label htmlFor="fc-generated-1-name">Full Name</label>
