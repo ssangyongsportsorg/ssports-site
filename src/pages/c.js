@@ -13,27 +13,7 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-   <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
- <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
+ 
      
  <section className="formcarry-container">
   <form action="#" method="POST" encType="multipart/form-data">
@@ -69,28 +49,8 @@ export default function Hello() {
     </div>
   </form>
 </section>
+        <p>
 
-   <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-<>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
 
   <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
 </div>
