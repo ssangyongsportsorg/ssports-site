@@ -35,50 +35,41 @@ export default function Hello() {
   </p>
 </>
      
-    <div className="example-form example-form_before">
-  <div className="example-title">聯絡</div>
-  <form
-    method="post"
-    action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
-  >
-    <div className="form-group">
-      <label>名稱</label>
+ <section className="formcarry-container">
+  <form action="#" method="POST" encType="multipart/form-data">
+    <div className="formcarry-block">
+      <label htmlFor="fc-generated-1-name">Full Name</label>
       <input
-        className="form-control"
         type="text"
         name="name"
-        placeholder="peter"
-       required
+        id="fc-generated-1-name"
+        placeholder="Your first and last name"
       />
-      <label>電子郵件</label>
+    </div>
+    <div className="formcarry-block">
+      <label htmlFor="fc-generated-1-email">Your Email Address</label>
       <input
-        required=""
-        className="form-control"
         type="email"
         name="email"
-        data-valuemissing="Need an email!"
-        data-patternmismatch="Only a and b characters allowed!"
-        placeholder="test@test.com"
-       required
+        id="fc-generated-1-email"
+        placeholder="john@doe.com"
       />
     </div>
-    <div className="form-group">
-      <label>內容</label>
+    <div className="formcarry-block">
+      <label htmlFor="fc-generated-1-message">Your message</label>
       <textarea
-        required=""
-        className="form-control"
-        name="內容"
-        pattern="[ab ]+"
-        rows={4}
-        data-valuemissing="Write me a story plz"
-        data-patternmismatch="Plz only a and b characters!"
-        placeholder="Tell me a story!"
+        name="message"
+        id="fc-generated-1-message"
+        placeholder="Enter your message..."
         defaultValue={""}
-       required
       />
     </div>
-    <button type="submit">Submit</button>
+    <div className="formcarry-block">
+      <button type="submit">Send</button>
+    </div>
   </form>
+</section>
+
    <>
   <p>&nbsp;</p>
   <p>
