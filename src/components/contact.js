@@ -35,9 +35,10 @@ function contact() {
     <div className="formcarry-block">
       <button type="submit">Send</button>
 </div>
+  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
+
   </form>
 </section>        
-  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
   )
 }
 
