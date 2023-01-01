@@ -38,7 +38,7 @@ export default function Newsletter(): JSX.Element {
 />
 
           
-          />
+         
           <input
             type="submit"
             value="Subscribe"
