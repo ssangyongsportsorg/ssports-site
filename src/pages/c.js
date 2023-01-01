@@ -9,7 +9,7 @@ function Form() {
       <main>
         <div className={styles.content}>
           <h1>
-          聯繫雙龍體育
+         聯繫雙龍體育
           </h1>
        
         </div>
@@ -25,7 +25,7 @@ function Form() {
               <input type="hidden" name="form-name" value="demo-request" />
               <p>
                 <label>
-                  <Translate>Name</Translate>{' '}
+                  名稱
                   <input
                     type="text"
                     name="name"
@@ -36,7 +36,7 @@ function Form() {
               </p>
               <p>
                 <label>
-                  <Translate>Email</Translate>{' '}
+                  電子郵件
                   <input
                     reqpuired
                     type="email"
@@ -44,27 +44,9 @@ function Form() {
                     placeholder="name@something.cool"
                   />
                 </label>
-              </p>
-              <p>
-                <label>
-                  <Translate>Phone Number</Translate>{' '}
-                  <input type="tel" name="phone" placeholder="+123 456 789" />
-                </label>
-              </p>
 
-              <p>
                 <label>
-                  <Translate>Organization</Translate>{' '}
-                  <input
-                    required
-                    name="organization"
-                    placeholder="ACME"
-                  ></input>
-                </label>
-              </p>
-              <p>
-                <label>
-                  <Translate>Comments</Translate>{' '}
+                  Comments
                   <textarea
                     name="comments"
                     placeholder="Any comments or requests you might have"
