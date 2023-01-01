@@ -5,7 +5,7 @@ import React from "react";
 export default function FooterWrapper(props: any) {
   return (
     <>
-      <Newsletter />
+      
       <Footer {...props} />
     </>
   );
