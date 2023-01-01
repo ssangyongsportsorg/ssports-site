@@ -36,7 +36,7 @@ function Form() {
               </p>
               <p>
                 <label>
-                  </p>電子郵件</p>
+                  電子郵件
                   <input
                     reqpuired
                     type="email"
@@ -46,7 +46,7 @@ function Form() {
                 </label>
 
                 <label>
-                  <p>Comments</p>{' '}
+                  Comments
                   <textarea
                     name="comments"
                     placeholder="Any comments or requests you might have"
