@@ -26,10 +26,7 @@ export default function Newsletter(): JSX.Element {
           target="_blank"
           className={styles.form}
         >
-          <input
-            placeholder="電子郵件"
-            type="email"
-            name="member[email]"
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="lovely-human@example.com" required>
             className={clsx(styles.input, "button")}
           />
           <input
