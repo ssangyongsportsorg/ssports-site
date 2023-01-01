@@ -25,7 +25,7 @@ function Form() {
               <input type="hidden" name="form-name" value="demo-request" />
               <p>
                 <label>
-                  </p>名稱</p>
+                  名稱
                   <input
                     type="text"
                     name="name"
