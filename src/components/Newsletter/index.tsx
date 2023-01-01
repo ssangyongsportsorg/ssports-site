@@ -34,9 +34,10 @@ export default function Newsletter(): JSX.Element {
   id="mce-EMAIL"
   placeholder="lovely-human@example.com"
   required=""
+            className={clsx(styles.input, "button")}
 />
 
-          className={clsx(styles.input, "button")}
+          
           />
           <input
             type="submit"
