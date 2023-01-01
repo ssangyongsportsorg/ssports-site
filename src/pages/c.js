@@ -1,114 +1,88 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import styles from './demo.module.css';
 
-export default function Hello() {
+
+function Form() {
   return (
-    <Layout title="聯絡" description="聯絡雙龍體育">
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '50vh',
-          fontSize: '20px',
-        }}>
+    <Layout title="聯絡">
+      <main>
+        <div className={styles.content}>
+          <h1>
+          聯繫雙龍體育
+          </h1>
+       
+        </div>
+        <div className={styles.formwrapper}>
+          <div className={styles.formbox}>
+            <form
+              data-netlify="true"
+              name="demo-request"
+              method="POST"
+              action="/thank-you"
+              data-netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="demo-request" />
+              <p>
+                <label>
+                  <Translate>Name</Translate>{' '}
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="your name"
+                    required
+                  />
+                </label>
+              </p>
+              <p>
+                <label>
+                  <Translate>Email</Translate>{' '}
+                  <input
+                    reqpuired
+                    type="email"
+                    name="email"
+                    placeholder="name@something.cool"
+                  />
+                </label>
+              </p>
+              <p>
+                <label>
+                  <Translate>Phone Number</Translate>{' '}
+                  <input type="tel" name="phone" placeholder="+123 456 789" />
+                </label>
+              </p>
 
-<section className="formcarry-container">
-          <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-  
-  <h1 style={{ textAlign: "left" }}>與我們聯絡</h1>
-
-  
-  <form action="#" method="POST" encType="multipart/form-data">
-
-    <div className="formcarry-block">
-      <label htmlFor="fc-generated-1-email">Your Email Address</label>
-      <input
-        type="email"
-        name="email"
-        id="fc-generated-1-email"
-        placeholder="john@doe.com"
-      />
-    </div>
-    <div className="formcarry-block">
-      <label htmlFor="fc-generated-1-message">Your message</label>
-      <textarea
-        name="message"
-        id="fc-generated-1-message"
-        placeholder="Enter your message..."
-        defaultValue={""}
-      />
-    </div>
-    <div className="formcarry-block">
-      <button type="submit">Send</button>
-      <>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-<>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-
-
-</div>
-
-  </form>
-</section>   
-<>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-<>
-  <p>&nbsp;</p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-  <p>
-    <br />
-  </p>
-</>
-  <link rel="stylesheet" href="https://ssangyongsports.github.io/1.css" />
-
-      </div>
+              <p>
+                <label>
+                  <Translate>Organization</Translate>{' '}
+                  <input
+                    required
+                    name="organization"
+                    placeholder="ACME"
+                  ></input>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <Translate>Comments</Translate>{' '}
+                  <textarea
+                    name="comments"
+                    placeholder="Any comments or requests you might have"
+                    rows="3"
+                  ></textarea>
+                </label>
+              </p>
+              <p>
+                <button className="button button--primary" type="submit">
+                  聯絡
+                </button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </main>
     </Layout>
   );
 }
+
+export default Form;
