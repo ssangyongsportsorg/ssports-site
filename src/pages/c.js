@@ -16,11 +16,9 @@ function Form() {
         <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
-              data-netlify="true"
+              action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
               name="demo-request"
-              method="POST"
-              action="/thank-you"
-              data-netlify-honeypot="bot-field"
+              method="POST"  
             >
               <input type="hidden" name="form-name" value="demo-request" />
               <p>
