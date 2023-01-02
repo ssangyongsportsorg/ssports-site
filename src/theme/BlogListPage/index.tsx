@@ -11,6 +11,7 @@ import BlogListPaginator from "@theme/BlogListPaginator";
 import SearchMetadata from "@theme/SearchMetadata";
 import BlogPostItems from "@theme/BlogPostItems";
 
+import { FeaturedBlogPostItems } from "../../components/blog";
 
 function BlogListPageMetadata(props) {
     const { metadata } = props;
@@ -33,7 +34,9 @@ function BlogListPageContent(props) {
 
     const isFirstPage = metadata.page === 1;
 
-    
+    const featuredPosts = items.filter(
+        (post) => post.content.metadata.frontMatter.is_featured === true,
+    );
 
     const paginatedPosts = items.filter(
         (post) => post.content.metadata.frontMatter.is_featured !== true,
