@@ -7,14 +7,6 @@ import type { FrontMatter as OriginalFrontMatter } from "@theme/BlogPostPage"
 import { ThemeClassNames } from "@docusaurus/theme-common"
 
 import styles from "./styles.module.css"
-import { ListItem } from "./ListItem"
-import { Categories } from "./Categories"
-import type { Props as CategoriesProps } from "./Categories"
-import { Chips } from "./Chips"
-import type { Props as ChipProps } from "./Chips"
-import Subscribe from "../../components/Subscribe"
-import ActionCard from "../../components/ActionCard"
-import SubscribeIcon from "../../components/ActionFooter/subscribeIcon.svg"
 
 export type FrontMatter = OriginalFrontMatter & { permalink?: string }
   return (
