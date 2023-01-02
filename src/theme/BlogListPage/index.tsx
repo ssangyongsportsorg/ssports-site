@@ -1,50 +1,64 @@
-import React from "react"
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
-import Layout from "@theme/Layout"
-import BlogPostItem from "@theme/BlogPostItem"
-import BlogListPaginator from "@theme/BlogListPaginator"
-import type { FrontMatter as OriginalFrontMatter } from "@theme/BlogPostPage"
-import { ThemeClassNames } from "@docusaurus/theme-common"
-
-import styles from "./styles.module.css"
-
-export type FrontMatter = OriginalFrontMatter & { permalink?: string }
-  return (
-    <Layout
-      title={title}
-      description={blogDescription}
-      wrapperClassName={ThemeClassNames.wrapper.blogPages}
-      pageClassName={ThemeClassNames.page.blogListPage}
-      searchMetadatas={{
-        // assign unique search tag to exclude this page from search results!
-        tag: "blog_posts_list",
-      }}
-    >
-      <main className={styles.root}>
-        {latestPost !== undefined && (
-          <div className={styles.latestPost}>
-            <BlogPostItem
-              key={latestPost.content.metadata.permalink}
-              frontMatter={latestPost.content.frontMatter}
-              metadata={{
-                ...latestPost.content.metadata,
-                permalink:
-                  (latestPost.content.frontMatter as FrontMatter).permalink ??
-                  latestPost.content.metadata.permalink,
-                tags: [],
-              }}
-              truncated={latestPost.content.metadata.truncated}
-            >
-              {React.createElement(latestPost.content)}
-            </BlogPostItem>
-          </div>
-        )}
+import React from "react";
+import clsx from "clsx";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import {
+    PageMetadata,
+    HtmlClassNameProvider,
+    ThemeClassNames,
+} from "@docusaurus/theme-common";
+import BlogLayout from "@theme/BlogLayout";
+import BlogListPaginator from "@theme/BlogListPaginator";
+import SearchMetadata from "@theme/SearchMetadata";
+import BlogPostItems from "@theme/BlogPostItems";
 
 
-        <BlogListPaginator metadata={metadata} />
-      </main>
-    </Layout>
-  )
+function BlogListPageMetadata(props) {
+    const { metadata } = props;
+    const {
+        siteConfig: { title: siteTitle },
+    } = useDocusaurusContext();
+    const { blogDescription, blogTitle, permalink } = metadata;
+    const isBlogOnlyMode = permalink === "/";
+    const title = isBlogOnlyMode ? siteTitle : blogTitle;
+    return (
+        <>
+            <PageMetadata title={title} description={blogDescription} />
+            <SearchMetadata tag="blog_posts_list" />
+        </>
+    );
 }
 
-export default BlogListPage
+function BlogListPageContent(props) {
+    const { metadata, items } = props;
+
+    const isFirstPage = metadata.page === 1;
+
+    
+
+    const paginatedPosts = items.filter(
+        (post) => post.content.metadata.frontMatter.is_featured !== true,
+    );
+
+    return (
+        <BlogLayout>
+            {isFirstPage && <FeaturedBlogPostItems items={featuredPosts} />}
+            <BlogPostItems items={paginatedPosts} />
+            <br />
+            <BlogListPaginator metadata={metadata} />
+        </BlogLayout>
+    );
+}
+
+export default function BlogListPage(props) {
+    return (
+        <HtmlClassNameProvider
+            className={clsx(
+                ThemeClassNames.wrapper.blogPages,
+                ThemeClassNames.page.blogListPage,
+            )}
+        >
+            <BlogListPageMetadata {...props} />
+            <BlogListPageContent {...props} />
+        </HtmlClassNameProvider>
+    );
+}
