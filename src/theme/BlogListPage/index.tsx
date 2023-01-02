@@ -11,7 +11,7 @@ import BlogListPaginator from "@theme/BlogListPaginator";
 import SearchMetadata from "@theme/SearchMetadata";
 import BlogPostItems from "@theme/BlogPostItems";
 
-import FeaturedBlogPostItems from "../components/blog";
+import FeaturedBlogPostItems from "./src/components/blog";
 
 function BlogListPageMetadata(props) {
     const { metadata } = props;
