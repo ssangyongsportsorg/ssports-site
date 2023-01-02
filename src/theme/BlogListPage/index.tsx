@@ -11,7 +11,6 @@ import BlogListPaginator from "@theme/BlogListPaginator";
 import SearchMetadata from "@theme/SearchMetadata";
 import BlogPostItems from "@theme/BlogPostItems";
 
-import FeaturedBlogPostItems from "./src/components/blog";
 
 function BlogListPageMetadata(props) {
     const { metadata } = props;
@@ -44,7 +43,6 @@ function BlogListPageContent(props) {
 
     return (
         <BlogLayout>
-            {isFirstPage && <FeaturedBlogPostItems items={featuredPosts} />}
             <BlogPostItems items={paginatedPosts} />
             <br />
             <BlogListPaginator metadata={metadata} />
