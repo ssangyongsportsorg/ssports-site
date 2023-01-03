@@ -142,7 +142,13 @@ function BlogListPage(props: Props): JSX.Element {
             />
           ))}
 
-           <div>
+          {posts.length === 11 && (
+            
+          )}
+        </div>
+
+        <BlogListPaginator metadata={metadata} />
+      </main>
     </Layout>
   )
 }
