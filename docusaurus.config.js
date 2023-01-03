@@ -117,7 +117,7 @@ const config = {
           announcementBar: {
       id: 'announcementBar-2',
       content:
-        '我們正在建立一個新網站使用next.js <a target="_blank" rel="noopener noreferrer" href="https://test-site.ssangyongsports.eu.org/">預覽',
+        '',
       backgroundColor: '#84C1FF',
       textColor: '#091E42',
       isCloseable: false,
