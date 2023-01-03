@@ -114,14 +114,15 @@ const config = {
           },
         ],
       },
-          announcementBar: {
+              announcementBar: {
       id: 'announcementBar-2',
       content:
-        '',
+        '新年快樂2023',
       backgroundColor: '#84C1FF',
       textColor: '#091E42',
       isCloseable: false,
     },
+  
   
       footer: {
         style: 'dark',
