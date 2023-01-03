@@ -143,7 +143,6 @@ function BlogListPage(props: Props): JSX.Element {
           ))}
 
            <div>
-      </main> 
     </Layout>
   )
 }
