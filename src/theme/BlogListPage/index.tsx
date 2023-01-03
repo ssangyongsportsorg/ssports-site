@@ -1,3 +1,4 @@
+
 import React from "react"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import Layout from "@theme/Layout"
@@ -7,12 +8,15 @@ import type { FrontMatter as OriginalFrontMatter } from "@theme/BlogPostPage"
 import type { Props } from "@theme/BlogListPage"
 import type { Tag } from "@theme/BlogTagsListPage"
 import { ThemeClassNames } from "@docusaurus/theme-common"
+
 import styles from "./styles.module.css"
 import { ListItem } from "./ListItem"
 import { Categories } from "./Categories"
 import type { Props as CategoriesProps } from "./Categories"
 import { Chips } from "./Chips"
 import type { Props as ChipProps } from "./Chips"
+import Subscribe from "../../components/Subscribe"
+import ActionCard from "../../components/ActionCard"
 
 export type FrontMatter = OriginalFrontMatter & { permalink?: string }
 
@@ -124,17 +128,40 @@ function BlogListPage(props: Props): JSX.Element {
         </h2>
 
         <div className={styles.posts}>
-          {posts.map(({ content }, i) => (
+          {posts.map(({ content }) => (
             <ListItem
               key={content.metadata.permalink}
               content={content}
-              belowFold={i > 5}
               forcedTag={
                 isTagsPage
                   ? {
                       label: ((metadata as unknown) as Tag).name,
                       permalink: metadata.permalink,
                     }
+                  : undefined
+              }
+            />
+          ))}
+
+          {posts.length === 11 && (
+            <ActionCard
+              title="Subscribe to our newsletter"
+              description="Stay up to date with all things QuestDB"
+              icon={<SubscribeIcon />}
+              skin="default"
+              className={styles.subscribeCard}
+            >
+              <Subscribe
+                placeholder="Email address"
+                submitButtonVariant="tertiary"
+                provider="newsletter"
+                className={styles.subscribe}
+                classNameInputs={styles.subscribeInputs}
+              />
+            </ActionCard>
+          )}
+        </div>
+
         <BlogListPaginator metadata={metadata} />
       </main>
     </Layout>
