@@ -1,4 +1,3 @@
-
 import React from "react"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import Layout from "@theme/Layout"
@@ -8,7 +7,6 @@ import type { FrontMatter as OriginalFrontMatter } from "@theme/BlogPostPage"
 import type { Props } from "@theme/BlogListPage"
 import type { Tag } from "@theme/BlogTagsListPage"
 import { ThemeClassNames } from "@docusaurus/theme-common"
-
 import styles from "./styles.module.css"
 import { ListItem } from "./ListItem"
 import { Categories } from "./Categories"
@@ -137,7 +135,6 @@ function BlogListPage(props: Props): JSX.Element {
                       label: ((metadata as unknown) as Tag).name,
                       permalink: metadata.permalink,
                     }
-                  : undefined
               }
             />
           ))}
