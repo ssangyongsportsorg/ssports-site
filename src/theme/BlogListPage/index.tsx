@@ -135,8 +135,6 @@ function BlogListPage(props: Props): JSX.Element {
                       label: ((metadata as unknown) as Tag).name,
                       permalink: metadata.permalink,
                     }
-              }
-            />
           ))}
          </div>
         <BlogListPaginator metadata={metadata} />
