@@ -15,7 +15,6 @@ import { Categories } from "./Categories"
 import type { Props as CategoriesProps } from "./Categories"
 import { Chips } from "./Chips"
 import type { Props as ChipProps } from "./Chips"
-import Subscribe from "../../components/Subscribe"
 import ActionCard from "../../components/ActionCard"
 
 export type FrontMatter = OriginalFrontMatter & { permalink?: string }
@@ -151,13 +150,6 @@ function BlogListPage(props: Props): JSX.Element {
               skin="default"
               className={styles.subscribeCard}
             >
-              <Subscribe
-                placeholder="Email address"
-                submitButtonVariant="tertiary"
-                provider="newsletter"
-                className={styles.subscribe}
-                classNameInputs={styles.subscribeInputs}
-              />
             </ActionCard>
           )}
         </div>
