@@ -85,7 +85,21 @@ const config = {
             },
           ],
         },
-         
+         {
+          label: "組織",
+          position: "left",
+          items: [
+            {
+              label: "Blog",
+              to: "/blog/",
+              activeBaseRegex: "/blog/?$",
+            },
+            {
+            label: '狀態',
+            href: 'https://status.ssangyongsports.eu.org/',
+            },
+          ],
+        },
           {
             href: 'https://help.ssangyongsports.eu.org/',
             label: '幫助中心',
