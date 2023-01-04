@@ -69,8 +69,6 @@ const config = {
         className: 'custom-navbar-logo-class',
        
         },
-        items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
           label: "體育",
           position: "left",
@@ -82,6 +80,24 @@ const config = {
             {
             label: '雙龍職籃',
             href: 'https://sbatw.ml/',
+            },
+          ],
+        },
+      {
+          label: "組織",
+          position: "left",
+          items: [
+            {
+              label: "幫助中心",
+            href: 'https://help.ssangyongsports.eu.org/',
+            },
+            {
+            label: '社區',
+            href: 'https://DISCUSS.ssangyongsports.eu.org/',
+            },
+            {
+              label: "聯繫",
+              to: "/c",
             },
           ],
         },
@@ -101,35 +117,19 @@ const config = {
           ],
         },
           {
-            href: 'https://help.ssangyongsports.eu.org/',
-            label: '幫助中心',
-            position: 'left',
-          },
-           {
-            href: 'https://DISCUSS.ssangyongsports.eu.org/',
-            label: '社區',
-            position: 'left',
-          },
-          {
-            href: 'https://status.ssangyongsports.eu.org/',
-            label: '狀態',
-            position: 'left',
-          },
-          {
-            href: '/p',
-            label: '隱私政策',
-            position: 'left',
-          },
-          {
-            href: '/t',
-            label: '服務條款',
-            position: 'left',
-          },
-          {
-            href: '/c',
-            label: '聯繫',
-            position: 'left',
-          },
+          label: "條款",
+          position: "left",
+          items: [
+            {
+              label: "隱私政策",
+              to: "/p",
+            },
+            {
+             label: "服務條款",
+              to: "/t",
+            },
+          ],
+        },
         ],
       },
               announcementBar: {
