@@ -72,35 +72,20 @@ const config = {
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-          label: "Learn",
+          label: "體育",
           position: "left",
           items: [
             {
-              label: "Blog",
-              to: "/blog/",
-              activeBaseRegex: "/blog/?$",
+              label: "雙龍職棒",
+            href: 'https://slbtw.cf/',
             },
             {
-              label: "Tutorials",
-              to: "/blog/tags/tutorial/",
-              activeBaseRegex: "/blog/tags/tutorial/?$",
-            },
-            {
-              label: "QuestDB Swag",
-              to: "/community/",
+            label: '雙龍職籃',
+            href: 'https://sbatw.ml/',
             },
           ],
         },
-          {
-            href: 'https://slbtw.cf/',
-            label: '雙龍職棒',
-            position: 'left',
-          },
-          {
-            href: 'https://sbatw.ml/',
-            label: '雙龍職籃',
-            position: 'left',
-          },
+         
           {
             href: 'https://help.ssangyongsports.eu.org/',
             label: '幫助中心',
