@@ -89,10 +89,6 @@ const config = {
               label: "QuestDB Swag",
               to: "/community/",
             },
-            {
-              label: "Slack Community",
-              to: customFields.slackUrl,
-            },
           ],
         },
           {
