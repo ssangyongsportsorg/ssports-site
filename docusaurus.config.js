@@ -71,7 +71,30 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
-
+          {
+          label: "Learn",
+          position: "left",
+          items: [
+            {
+              label: "Blog",
+              to: "/blog/",
+              activeBaseRegex: "/blog/?$",
+            },
+            {
+              label: "Tutorials",
+              to: "/blog/tags/tutorial/",
+              activeBaseRegex: "/blog/tags/tutorial/?$",
+            },
+            {
+              label: "QuestDB Swag",
+              to: "/community/",
+            },
+            {
+              label: "Slack Community",
+              to: customFields.slackUrl,
+            },
+          ],
+        },
           {
             href: 'https://slbtw.cf/',
             label: '雙龍職棒',
