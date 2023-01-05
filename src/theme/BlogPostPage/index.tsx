@@ -1,4 +1,4 @@
-import React, { type ReactNode } from "react";
+import React from "react"
 import clsx from "clsx";
 import { HtmlClassNameProvider, ThemeClassNames } from "@docusaurus/theme-common";
 import { BlogPostProvider, useBlogPost } from "@docusaurus/theme-common/internal";
