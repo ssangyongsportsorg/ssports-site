@@ -42,8 +42,6 @@ function BlogPostPageContent({ sidebar, children }: { sidebar: BlogSidebar; chil
           pageId: 'PAGE_ID',
           pageTitle: 'PAGE_TITLE',
           pageUrl: 'PAGE_URL'
-         <script defer src="https://im12523gss.vercel.app/lang.json"></script>
-
         }}
       />
 
