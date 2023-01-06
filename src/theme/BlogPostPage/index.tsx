@@ -38,7 +38,7 @@ function BlogPostPageContent({ sidebar, children }: { sidebar: BlogSidebar; chil
         <ReactCusdis
         lang="en"
         attrs={{
-          host: 'https://dfff-nijxcc7sb-ssangyongsports.vercel.app',
+          host: 'https://dfff.vercel.app/',
           appId: '583956c6-98dd-40e3-9d48-7ee4480f3d28',
           pageId: 'PAGE_ID',
           pageTitle: 'PAGE_TITLE',
