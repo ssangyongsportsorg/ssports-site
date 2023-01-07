@@ -84,7 +84,7 @@ const config = {
           ],
         },
       {
-          label: "組織",
+          label: "支援",
           position: "left",
           items: [
             {
