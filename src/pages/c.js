@@ -27,7 +27,7 @@ function Form() {
                   <input
                     type="text"
                     name="name"
-                    placeholder="your name"
+                    placeholder="你的名子"
                     required
                   />
                 </label>
@@ -39,15 +39,15 @@ function Form() {
                     reqpuired
                     type="email"
                     name="email"
-                    placeholder="name@something.cool"
+                    placeholder="name@ssangyongsports.org"
                   />
                 </label>
 
                 <label>
                   Comments
                   <textarea
-                    name="comments"
-                    placeholder="Any comments or requests you might have"
+                    name="留言"
+                    placeholder="輸入..."
                     rows="3"
                   ></textarea>
                 </label>
