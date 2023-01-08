@@ -2,33 +2,5 @@
 .navbar {
   background-color: hsla(0,0%,100%,.65);
 }
-.hero__subtitle {
-  font-size: 7.2rem;
-  font-weight: bold;
-  line-height: 1.1;
-  margin-bottom: 4rem;
-  letter-spacing: -0.03em;
-}
-.hero__red{
-  color: red;
-  font-size: 4.55rem;
-}
-.hero__red{
-  color: red;
-  font-size: 4.55rem;
-}
-.hero__blue{
-  color: blue;
-  font-size: 4.55rem;
-}
-.hero__blue{
-  color: yellow;
-  font-size: 4.55rem;
-}
-.hero__green{
-  color: green;
-  font-size: 4.55rem;
-}
-
 
 
