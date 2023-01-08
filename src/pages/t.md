@@ -3,7 +3,7 @@ title: 服務條款
 description: 1.您使用本服務之一切行為必須符合當地或國際相關法令規範；對於使用者的一切行為，您須自行負擔全部責任。 2.您同意絕不為非法之目的或以非法方式使用本服務，與確實遵守 ...
 hide_table_of_contents: false
 ---
-## 服務條款
+# 服務條款
 本使用條款構成您個人或代表實體（“您”）與雙龍體育（“公司”、“我們”或“我們的”）之間就您訪問和使用 https://www.ssangyongsports.org 網站以及任何其他媒體形式、媒體渠道、移動網站或與之相關、連結或以其他方式連接的移動應用程式（統稱為“網站”）。您同意，通過訪問本網站，您已閱讀、理解並同意受所有這些使用條款的約束。如果您不同意所有這些使用條款，則明確禁止您使用本網站，您必須立即停止使用。
 
 可能不時發佈在本網站上的補充條款和條件或檔特此通過引用明確納入本文。我們保留自行決定隨時以任何理由更改或修改這些使用條款的權利。我們將通過更新本使用條款的「最後更新」日期來提醒您任何更改，並且您放棄接收有關每個此類更改的具體通知的任何權利。請確保您每次使用我們的網站時都檢查適用的條款，以便瞭解哪些條款適用。您將受到任何修訂后的使用條款的約束，並將被視為已瞭解並已接受任何修訂后的使用條款的更改，以便在此類修訂后的使用條款發佈之日後繼續使用本網站。
@@ -87,10 +87,9 @@ hide_table_of_contents: false
 
 本許可將適用於現在已知或以後開發的任何形式、媒體或技術，包括我們使用您的姓名、公司名稱和特許經營名稱（如適用），以及您提供的任何商標、服務標誌、商品名稱、徽標以及個人和商業圖像。您放棄您的貢獻中的所有精神權利，並且您保證您的貢獻中沒有以其他方式主張精神權利。
 
-We do not assert any ownership over your Contributions. You retain full ownership of all of your Contributions and any intellectual property rights or other proprietary rights associated with your Contributions. We are not liable for any statements or representations in your Contributions provided by you in any area on the Site. You are solely responsible for your Contributions to the Site and you expressly agree to exonerate us from any and all responsibility and to refrain from any legal action against us regarding your Contributions.
+我們不主張對您的貢獻的任何擁有權。您保留所有貢獻以及與您的貢獻相關的任何智慧財產權或其他專有權利的完全擁有權。對於您在本網站任何區域提供的投稿中的任何聲明或陳述，我們概不負責。您對您對本網站的貢獻負全部責任，並且您明確同意免除我們的任何和所有責任，並避免就您的貢獻對我們採取任何法律行動。
 
-We have the right, in our sole and absolute discretion, (1) to edit, redact, or otherwise change any Contributions; (2) to re-categorize any Contributions to place them in more appropriate locations on the Site; and (3) to pre-screen or delete any Contributions at any time and for any reason, without notice. We have no obligation to monitor your Contributions.
-
+我們有權全權酌情決定 （1） 編輯、編輯或以其他方式更改任何貢獻;（2） 對任何貢獻進行重新分類，以將其放置在網站上更合適的位置;（3） 隨時以任何理由預先篩選或刪除任何貢獻，恕不另行通知。我們沒有義務監控您的貢獻。
 
 ## 8. 審核指南
 
