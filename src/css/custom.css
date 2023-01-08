@@ -2,3 +2,7 @@
 .navbar {
   background-color: hsla(0,0%,100%,.65);
 }
+.hero__subtitle {
+  color: white;
+  font-size: 4.55rem;
+}
