@@ -25,16 +25,7 @@ const config = {
     defaultLocale: 'zh-tw',
     locales: ['zh-tw'],
   },
-  plugins: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        indexPages: true,
-        language: "zh",
-        
-      },
-    ],
-  ],
+ 
   presets: [
     [
       'classic',
@@ -139,6 +130,18 @@ const config = {
       backgroundColor: '#84C1FF',
       textColor: '#091E42',
       isCloseable: false,
+    },
+          algolia: {
+      apiKey: "7640fd8ca3b8204bd58b654f71607ab5",
+      indexName: "docs",
+      appId: "8YELX4XDEG",
+      // Optional: see doc section bellow
+      contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
     },
   
   
