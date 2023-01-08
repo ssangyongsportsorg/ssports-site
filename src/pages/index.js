@@ -38,9 +38,9 @@ export default function Home() {
         <div className="hero-block">
           <div className="content-block-hero">
             <h1 className="heading-2">
-              <strong className="bold-text-9">我們的</strong>
+              <strong className="hero__subtitle">我們的</strong>
               <span>
-                <strong className="bold-text">使命</strong>
+                <strong className="hero__subtitle">使命</strong>
               </span>
               <strong className="bold-text-9">是將</strong>
               <span>
