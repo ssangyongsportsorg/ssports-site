@@ -69,7 +69,7 @@ export default function Home() {
                 data-w-id="d90f4fb2-2134-be56-aa63-3fe5d940d2aa"
                 href="#123"
               >
-                        <ReactiveButton shadow size="large" idleText="Visit Github" />
+                        <ReactiveButton shadow size="large" idleText="我們的體育" />
 
               </a>
             </div>
@@ -111,20 +111,11 @@ export default function Home() {
                 </strong>
               </p>
             </div>
-            <a
-              className="_6 w-inline-block"
-              data-w-id="cd4d931f-771b-3662-2f2f-9a8f90ae7698"
-              href="#"
-              id={58}
-            >
+          
               <div className="button-side"></div>
-            </a>
-            <a
-              className="button-2 button--white-whitebg button--space button--nomobile w-button"
-              href="https://www.slbtw.cf/"
-            >
-              更多資訊
-            </a>
+            <a href="https://www.slbtw.cf/" target="_blank">
+    <ReactiveButton color="yellow" idleText="更多消息" />
+  </a>
           </div>
         </div>
         <div className="column">
@@ -165,12 +156,9 @@ export default function Home() {
                 </strong>
               </p>
             </div>
-            <a
-              className="button-2 button--white-whitebg button--space button--nomobile w-button"
-              href="#"
-            >
-              更多資訊
-            </a>
+            <a href="/" target="_blank">
+    <ReactiveButton color="teal" idleText="更多消息" />
+  </a>
           </div>
         </div>
       </div>
