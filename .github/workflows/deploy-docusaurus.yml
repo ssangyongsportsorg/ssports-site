@@ -17,12 +17,12 @@ jobs:
           node-version: 18
           cache: yarn
 
-      - name: Run DocSearch Scraper
+      - name: docsearch抓取
         env:
           APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
           API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
         run: |
-          docker run \
-          -e APPLICATION_ID -e API_KEY \
-          -e CONFIG="$(cat .github/scrapeConfig/docusaurus-v2.json)" \
+          docker run /
+          -e APPLICATION_ID -e API_KEY /
+          -e CONFIG="$(cat .github/scrapeConfig/docusaurus-v2.json)" /
           algolia/docsearch-scraper
