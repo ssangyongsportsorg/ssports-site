@@ -112,7 +112,6 @@ export default function Home() {
               </p>
             </div>
           
-              <div className="button-side"></div>
             <a href="https://www.slbtw.cf/" target="_blank">
     <ReactiveButton color="yellow" idleText="更多消息" />
   </a>
