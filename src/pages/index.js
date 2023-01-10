@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import ReactiveButton from 'reactive-button';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -63,15 +64,13 @@ export default function Home() {
               </span>
             </h1>
             <div className="button-wrap-hero">
-              <a
+            <a
                 className="_6 w-inline-block"
                 data-w-id="d90f4fb2-2134-be56-aa63-3fe5d940d2aa"
                 href="#123"
               >
-                <div className="button-face">
-                  <div className="button-text">我們的運動</div>
-                </div>
-                <div className="button-side"></div>
+                        <ReactiveButton shadow size="large" idleText="Visit Github" />
+
               </a>
             </div>
           </div>
@@ -144,12 +143,9 @@ export default function Home() {
                 </strong>
               </p>
             </div>
-            <a
-              className="button-2 button--white-whitebg button--space button--nomobile w-button"
-              href="https://www.sbatw.ml/"
-            >
-              更多資訊
-            </a>
+            <a href="https://www.sbatw.ml" target="_blank">
+    <ReactiveButton idleText="更多消息" />
+  </a>
           </div>
         </div>
         <div className="column">
