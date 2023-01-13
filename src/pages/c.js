@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './demo.module.css';
+import ReactiveButton from 'reactive-button';
 
 
 function Form() {
@@ -53,9 +54,8 @@ function Form() {
                 </label>
               </p>
               <p>
-                <button className="button button--primary" type="submit">
-                  聯絡
-                </button>
+                    <ReactiveButton type={'submit'} idleText="Submit" />
+
               </p>
             </form>
           </div>
