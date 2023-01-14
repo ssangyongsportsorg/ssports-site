@@ -5,3 +5,11 @@
 
 ## ❤️ 我想要貢獻
 使用Pull requests
+
+## 🙏 感謝
+1.vercel
+2.algolia
+3.docusaurus
+4.pageclip
+5.webflow
+
