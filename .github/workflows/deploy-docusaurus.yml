@@ -1,6 +1,6 @@
 name: docsearch抓取
 
-on:
+on: 
   push:
     branches:
       - main
