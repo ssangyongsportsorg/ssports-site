@@ -99,9 +99,6 @@
   display: -ms-flexbox;
   display: flex;
 }
-
-}
-
 .content-block-hero {
   position: relative;
   max-width: 590px;
