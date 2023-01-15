@@ -11,12 +11,12 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://uploads-ssl.webflow.com/634b88e48246d83808264be5/634b8a960007a1ac7d21f4e2_62f32325349867818a2a6fa2_62ccdcf75b92a3e26f4df0b7_%E6%9C%AA%E5%91%BD%E5%90%8D%E8%A8%AD%E8%A8%88%20(1).jpg',
+  favicon: 'https://i.imgur.com/CfQiMkp.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ssangyongsports', // Usually your GitHub org/user name.
-  projectName: 'github-k8klqk', // Usually your repo name.
+  organizationName: 'ssangyongsportsorg', // Usually your GitHub org/user name.
+  projectName: 'ssport-site', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
