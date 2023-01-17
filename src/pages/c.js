@@ -18,10 +18,11 @@ function Form() {
           <div className={styles.formbox}>
             <form
               action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
-              name="demo-request"
+              path="/hello-nextjs"
+              name="聯繫表單"
               method="POST"  
             >
-              <input type="hidden" name="form-name" value="demo-request" />
+              <input type="hidden" name="form-name" value="聯繫表單" />
               <p>
                 <label>
                   名稱
