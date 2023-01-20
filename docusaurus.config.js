@@ -83,7 +83,7 @@ const config = {
             href: 'https://help.ssangyongsports.eu.org/',
             },
             {
-            label: '埨',
+            label: '論壇',
             href: 'https://DISCUSS.ssangyongsports.org/',
             },
             {
