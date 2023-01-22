@@ -128,7 +128,7 @@ const config = {
               announcementBar: {
       id: 'announcementBar-2',
       content:
-        '新年快樂2023',
+        '萬事如意迎新年，玉兔迎春旺全年',
       backgroundColor: '#84C1FF',
       textColor: '#091E42',
       isCloseable: false,
