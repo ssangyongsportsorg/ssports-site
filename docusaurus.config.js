@@ -129,7 +129,7 @@ const config = {
       id: 'announcementBar-2',
       content:
         '萬事如意迎新年，玉兔迎春旺全年',
-      backgroundColor: '#84C1FF',
+      backgroundColor: '#EA0000',
       textColor: '#091E42',
       isCloseable: false,
     },
