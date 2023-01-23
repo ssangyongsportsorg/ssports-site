@@ -56,8 +56,7 @@ function Form() {
               <p>
                       <a href="https://github.com/">
                     <ReactiveButton type={'submit'} idleText="Submit" />
-                      
-  </a>
+                     </a>
 
               </p>
             </form>
