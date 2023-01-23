@@ -20,7 +20,7 @@ function Form() {
               action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
               name="聯繫表單"
               method="POST" 
-              action="/3772"
+              action="/c"
             >
               <input type="hidden" name="form-name" value="聯繫表單" />
               <p>
