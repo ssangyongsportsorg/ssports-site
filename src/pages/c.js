@@ -47,7 +47,7 @@ function Form() {
 <input
     type="hidden"
     name="_redirect"
-    value="/thanks"
+    value="https://www.ssangyongsports.org/thanks"
   />
                 <label>
                   Comments
