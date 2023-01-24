@@ -17,9 +17,10 @@ function Form() {
         <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
-              action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
+              onsubmit="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
               name="聯繫表單"
-              method="POST" 
+              method="POST"
+    
             >
               <input type="hidden" name="form-name" value="聯繫表單" />
               <p>
