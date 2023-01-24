@@ -17,7 +17,7 @@ function Form() {
         <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
-              action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
+              action="https://submit-form.com/yFAbXMpc"
               name="聯繫表單"
               method="POST"
     
