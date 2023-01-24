@@ -44,7 +44,11 @@ function Form() {
                     placeholder="name@ssangyongsports.org"
                   />
                 </label>
-
+<input
+    type="hidden"
+    name="_redirect"
+    value="https://your-website.com/thanks"
+  />
                 <label>
                   Comments
                   <textarea
