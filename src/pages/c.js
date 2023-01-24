@@ -47,7 +47,7 @@ function Form() {
 <input
     type="hidden"
     name="_redirect"
-    value="https://your-website.com/thanks"
+    value="/thanks"
   />
                 <label>
                   Comments
