@@ -17,7 +17,7 @@ function Form() {
         <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
-              onsubmit="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
+              action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
               name="聯繫表單"
               method="POST"
     
@@ -56,7 +56,7 @@ function Form() {
               </p>
               <p>
                       <a href="https://github.com/">
-                    <ReactiveButton type={'submit'} idleText="Submit" />
+                    <ReactiveButton href="https://github.com/" type={'submit'} idleText="Submit" />
                      </a>
 
               </p>
