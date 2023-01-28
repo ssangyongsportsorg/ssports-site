@@ -15,7 +15,7 @@ function Form() {
        
         </div>
                 <div className={styles.formwrapper}>
-          <div className={styles.formbox}>
+          
             <form
               action="https://submit-form.com/yFAbXMpc"
               name="聯繫表單"
