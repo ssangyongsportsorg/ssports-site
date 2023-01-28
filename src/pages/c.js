@@ -30,7 +30,7 @@ function Form() {
                   <input
                     type="text"
                     name="name"
-                    placeholder="你的名子"
+                    placeholder="你的名字"
                     required
                   />
                 </label>
