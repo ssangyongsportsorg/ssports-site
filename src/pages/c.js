@@ -10,11 +10,11 @@ function Form() {
       <main>
         <div className={styles.content}>
           <h1>
-         聯繫雙龍體育
+         聯繫雙龍體育團隊
           </h1>
        
         </div>
-        <div className={styles.formwrapper}>
+        
           <div className={styles.formbox}>
             <form
               action="https://submit-form.com/yFAbXMpc"
@@ -50,7 +50,7 @@ function Form() {
     value="https://www.ssangyongsports.org/thanks"
   />
                 <label>
-                  Comments
+                  問題
                   <textarea
                     name="留言"
                     placeholder="輸入..."
@@ -59,9 +59,9 @@ function Form() {
                 </label>
               </p>
               <p>
-                      <a href="https://github.com/">
+                      
                     <ReactiveButton href="https://github.com/" type={'submit'} idleText="Submit" />
-                     </a>
+                     
 
               </p>
             </form>
