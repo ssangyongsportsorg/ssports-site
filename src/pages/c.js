@@ -14,7 +14,7 @@ function Form() {
           </h1>
        
         </div>
-        
+                <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
               action="https://submit-form.com/yFAbXMpc"
@@ -60,7 +60,7 @@ function Form() {
               </p>
               <p>
                       
-                    <ReactiveButton href="https://github.com/" type={'submit'} idleText="Submit" />
+                    <ReactiveButton  type={'submit'} idleText="提交" />
                      
 
               </p>
