@@ -8,7 +8,7 @@ function Form() {
   return (
     <Layout title="聯絡">
       <main>
-        <div className={styles.content}>
+      
           <h1>
          聯繫雙龍體育團隊
           </h1>
