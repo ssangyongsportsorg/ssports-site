@@ -8,14 +8,14 @@ function Form() {
   return (
     <Layout title="聯絡">
       <main>
-      
+        <div className={styles.content}>
           <h1>
-         聯繫雙龍體育團隊
+         聯繫雙龍體育
           </h1>
        
-        
-                <div className={styles.formwrapper}>
-          
+        </div>
+        <div className={styles.formwrapper}>
+          <div className={styles.formbox}>
             <form
               action="https://submit-form.com/yFAbXMpc"
               name="聯繫表單"
@@ -60,16 +60,15 @@ function Form() {
               </p>
               <p>
                       
-                    <ReactiveButton  type={'submit'} idleText="提交" />
-                     
+                    <ReactiveButton type={'submit'} idleText="提交" />
+                     <
 
               </p>
             </form>
 
 
           </div>
-
-        
+        </div>
       </main>
     </Layout>
   );
