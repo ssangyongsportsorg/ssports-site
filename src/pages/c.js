@@ -8,12 +8,13 @@ function Form() {
   return (
     <Layout title="聯絡">
       <main>
-        <div className={styles.content}>
+      <div className={styles.content}>
           <h1>
-         聯繫雙龍體育
+         聯繫雙龍體育團隊
           </h1>
        
-        </div>
+        
+                </div>
         <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
@@ -58,17 +59,18 @@ function Form() {
                   ></textarea>
                 </label>
               </p>
-             
+              <p>
                       
-                    <ReactiveButton type={'submit'} idleText="提交" />
-                     <
+                    <ReactiveButton  type={'submit'} idleText="提交" />
+                     
 
               </p>
             </form>
 
 
           </div>
-        </div>
+
+        
       </main>
     </Layout>
   );
