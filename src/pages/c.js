@@ -70,7 +70,7 @@ function Form() {
 
           </div>
 
-        
+        </div>
       </main>
     </Layout>
   );
