@@ -128,8 +128,8 @@ const config = {
               announcementBar: {
       id: 'announcementBar-2',
       content:
-        '萬事如意迎新年，玉兔迎春旺全年',
-      backgroundColor: '#EA0000',
+        '雙龍職棒、職籃、雙龍體育TV首頁都在建造新主頁中，詳細資料：ssport.cf/newsite',
+      backgroundColor: '#ffff',
       textColor: '#091E42',
       isCloseable: false,
     },
