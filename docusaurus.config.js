@@ -128,7 +128,7 @@ const config = {
               announcementBar: {
       id: 'announcementBar-2',
       content:
-        '雙龍職棒、職籃、雙龍體育TV首頁都在建造新主頁中，詳細資料：ssport.cf/newsite',
+        '雙龍職棒、職籃、TV建造新主頁中，＜a href="https://ssport.cf/a" target="_blank"＞詳情＜/a＞',
       backgroundColor: '#ffff',
       textColor: '#091E42',
       isCloseable: false,
