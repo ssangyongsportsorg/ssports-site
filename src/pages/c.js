@@ -9,10 +9,13 @@ function Form() {
   return (
     <Layout title="聯絡">
       <main>
-          <h1>
+                <div className={styles.content}>
+  
+    <h1>
          聯繫雙龍體育團隊
           </h1>
-       
+                 </div>
+
                 <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
