@@ -191,7 +191,4 @@ hide_table_of_contents: false
 
 為了解決有關本網站的投訴或接收有關使用本網站的更多資訊，請通過以下方式與我們聯繫：
 
-雙龍體育
-__________
-臺灣
-support@ssangyongsports.org
+雙龍體育:support@ssangyongsports.org
