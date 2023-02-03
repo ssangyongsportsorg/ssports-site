@@ -4,7 +4,7 @@ description: 您的隱私對我們很重要。雙龍體育的政策是尊重您�
 hide_table_of_contents: false
 ---
 # 隱私政策
-您的隱私對我們很重要。雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.eu.org 以及我們擁有和運營的其他網站。
+您的隱私對我們很重要。雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org 以及我們擁有和運營的其他網站。
 
 本政策自 2022 年 1 月 5 日起生效，最後更新時間為 2022 年 1 月 5 日。
 
@@ -89,8 +89,5 @@ hide_table_of_contents: false
 ## 聯繫我們
 如有任何關於您的隱私的問題或疑慮，您可以使用以下詳細信息與我們聯繫：
 
-support@ssangyongsport.eu.org
-
-聯繫
-
+support@ssangyongsport.org
 雙龍體育團隊
