@@ -4,6 +4,8 @@
 
 .formwrapper {
   max-width: 400px;
+    margin: 0rem auto;
+
   background-color: #ffffff;
   border-radius: 1rem;
 }
