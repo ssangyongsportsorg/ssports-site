@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './demo.module.css';
@@ -12,6 +13,7 @@ function Form() {
          聯繫雙龍體育團隊
           </h1>
        
+                <div className={styles.formwrapper}>
           <div className={styles.formbox}>
             <form
               action="https://submit-form.com/yFAbXMpc"
@@ -64,6 +66,7 @@ function Form() {
             </form>
 
 
+          </div>
           </div>
 
       </main>
