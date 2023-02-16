@@ -59,8 +59,8 @@ const config = {
           alt: '雙龍體育 Logo',
           src: 'https://i.imgur.com/QDVhPoB.png',
         className: 'custom-navbar-logo-class',
-           width: 215,
-        height: 51,
+           width: 247,
+        height: 66,
              },
         items: [
            {
