@@ -57,10 +57,10 @@ const config = {
         
         logo: {
           alt: '雙龍體育 Logo',
-          src: 'https://i.imgur.com/QDVhPoB.png',
+          src: 'https://media-private.canva.com/VSb3k/MAFDLnVSb3k/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230216T003840Z&X-Amz-Expires=64092&X-Amz-Signature=33771956061c99a14edbdae34ceecd7aeb793db42aa9c1c0b28d806413aa82cc&X-Amz-SignedHeaders=host&response-expires=Thu%2C%2016%20Feb%202023%2018%3A26%3A52%20GMT',
         className: 'custom-navbar-logo-class',
-           width: 247,
-        height: 66,
+           width: 212,
+        height: 52,
              },
         items: [
            {
