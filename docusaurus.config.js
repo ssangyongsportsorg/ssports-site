@@ -57,7 +57,7 @@ const config = {
         
         logo: {
           alt: '雙龍體育 Logo',
-          src: 'https://img.ssangyongsports.eu.org/logo2.png',
+          src: 'https://i.imgur.com/QDVhPoB.png',
         className: 'custom-navbar-logo-class',
            width: 215,
         height: 51,
