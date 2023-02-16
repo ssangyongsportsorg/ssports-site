@@ -31,10 +31,6 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-         googleAnalytics: {
-          trackingID: 'G-1ZG30VCF5S',
-          anonymizeIP: true,
-        },
 
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -63,7 +59,7 @@ const config = {
           alt: '雙龍體育 Logo',
           src: 'https://img.ssangyongsports.eu.org/logo2.png',
         className: 'custom-navbar-logo-class',
-           width: 148,
+           width: 215,
         height: 51,
              },
         items: [
