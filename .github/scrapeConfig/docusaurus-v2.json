@@ -1,13 +1,14 @@
 {
   "index_name": "docs",
   "start_urls": [
-    "https://www.ssangyongsports.org/"
+    "https://ssangyongsports.org/"
   ],
   "sitemap_urls": [
-    "https://www.ssangyongsports.org/sitemap.xml"
+    "https://ssangyongsports.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
+    "/tests"
   ],
   "selectors": {
     "lvl0": {
@@ -40,7 +41,7 @@
       "url",
       "url_without_anchor",
       "type"
-  ]
+    ]
   },
   "conversation_id": [
     "833762294"
