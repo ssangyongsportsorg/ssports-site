@@ -56,7 +56,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: '雙龍體育 Logo',
-          src: 'https://i.imgur.com/bN9ZLOW.png',
+          src: 'https://i.imgur.com/8cOrY1E.png',
            width: 156,
         height: 48,
              },
