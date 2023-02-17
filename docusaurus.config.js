@@ -6,7 +6,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '雙龍體育',
-  tagline: '​雙龍職籃 ... 籃球，為一種由兩隊參與，在一個長方形籃球場進行的球類運動。每隊出場5名隊員，可將球向任何方向傳、投、拍、滾或運，目的是將籃球投入對方球籃得分，並阻止',
+  tagline: '歡迎來到雙龍體育官方網站!立刻搜尋有關於雙龍體育或職籃職棒等資訊',
   url: 'https://www.ssangyongsports.org/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -56,7 +56,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: '雙龍體育 Logo',
-          src: 'https://i.imgur.com/MKRejxt_d.webp?maxwidth=760&fidelity=grand',
+          src: 'https://i.imgur.com/bN9ZLOW.png',
            width: 156,
         height: 48,
              },
