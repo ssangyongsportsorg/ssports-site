@@ -54,12 +54,11 @@ const config = {
     ({
       navbar: {
         hideOnScroll: true,
-        title: '雙龍體育',
         logo: {
           alt: '雙龍體育 Logo',
-          src: 'https://media-private.canva.com/Rwf5Y/MAE-EARwf5Y/1/tl.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20230217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230217T093853Z&X-Amz-Expires=21885&X-Amz-Signature=9a878fea92c93c347ee0526ac61a60b5884bceeb8166727acfdee769b96f55d7&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2017%20Feb%202023%2015%3A43%3A38%20GMT',
-           width: 32,
-        height: 32,
+          src: 'https://i.imgur.com/MKRejxt_d.webp?maxwidth=760&fidelity=grand',
+           width: 156,
+        height: 48,
              },
         items: [
            {
