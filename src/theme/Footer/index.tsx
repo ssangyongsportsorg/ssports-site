@@ -12,7 +12,6 @@ const Footer = () => {
         .querySelector(".navbar__logo")
         .addEventListener("contextmenu", (e) => {
           e.preventDefault();
-          window.open("https://remotion.dev/brand", "_blank");
         });
     }
   }, []);
