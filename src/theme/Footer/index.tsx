@@ -7,7 +7,16 @@ const Footer = () => {
   const { footer } = useThemeConfig();
 
   useEffect(() => {
-if (!footer) {
+    if (typeof document !== "undefined") {
+      document
+        .querySelector(".navb6ar__logo")
+        .addEventListener("contextmenu", (e) => {
+          e.preventDefault();
+        });
+    }
+  }, []);
+
+  if (!footer) {
     return null;
   }
 
