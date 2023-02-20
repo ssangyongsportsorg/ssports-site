@@ -9,9 +9,7 @@ const Footer = () => {
   useEffect(() => {
     if (typeof document !== "undefined") {
       document
-        .querySelector(".navb6ar__logo")
-        .addEventListener("contextmenu", (e) => {
-          e.preventDefault();
+        
         });
     }
   }, []);
