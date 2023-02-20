@@ -52,9 +52,9 @@ export default ({ columns }) => {
 
   useEffect(() => {
     if (isDarkTheme) {
-      setSrc("/img/remotion-white.png");
+      setSrc("https://img.ssangyongsports.eu.org/logo2.png");
     } else {
-      setSrc("/img/new-logo.png");
+      setSrc("https://img.ssangyongsports.eu.org/logo2.png");
     }
   }, [isDarkTheme]);
 
@@ -75,8 +75,7 @@ export default ({ columns }) => {
           }}
         />
         <p style={copyright}>
-          © Copyright {new Date().getFullYear()} Remotion AG. <br /> Website
-          created with Docusaurus.
+          Copyright © 2023 雙龍體育, org. 維護團隊：雙龍體育.
         </p>
       </div>
       {columns.map((column, i) => (
