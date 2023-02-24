@@ -74,6 +74,15 @@ export default ({ columns }) => {
             marginRight: 80,
           }}
         />
+        <iframe
+  src="https://status.ssangyongsports.org/embed-status/d532b9f9/light-md"
+  width={230}
+  height={61}
+  frameBorder={0}
+  scrolling="no"
+  style={{ border: "none" }}
+></iframe>
+
         <p style={copyright}>
           Copyright © 2023 雙龍體育, org. 維護團隊：雙龍體育.
         </p>
