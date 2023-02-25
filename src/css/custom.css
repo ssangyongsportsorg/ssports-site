@@ -762,4 +762,20 @@
     padding-bottom: 15px;
   }
 }
+.searchDiv {
+  margin: auto;
+  width: calc(var(--ifm-container-width) / 12 * 7);
+}
 
+.searchDiv .DocSearch-Button {
+  margin: auto;
+  width: 70%;
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 10px;
+  color: var(--docsearch-text-color);
+}
+
+[data-theme="dark"] .searchDiv .DocSearch-Button {
+  color: var(--docsearch-muted-color);
+}
