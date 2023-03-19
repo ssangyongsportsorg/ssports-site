@@ -125,7 +125,7 @@ const config = {
               announcementBar: {
       id: 'announcementBar-2',
       content:
-        '雙龍職棒、職籃、TV建造新主頁中，<a target="_blank" href="https://ssport.cf/a">詳情</a>',
+        '網域被刪除公告，<a target="_blank" href="/blog/domain">詳情</a>',
       backgroundColor: '#ffff',
       textColor: '#091E42',
       isCloseable: false,
