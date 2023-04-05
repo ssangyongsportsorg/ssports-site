@@ -125,7 +125,7 @@ const config = {
               announcementBar: {
       id: 'announcementBar-2',
       content:
-        '網域被刪除公告，<a target="_blank" href="/blog/domain">詳情</a>',
+       '正在架設新官網',
       backgroundColor: '#ffff',
       textColor: '#091E42',
       isCloseable: false,
