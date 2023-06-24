@@ -1,4 +1,4 @@
-# 這是雙龍體育官網檔案
+# 這是舊版雙龍體育官網檔案
 ## 📝 部落格
 
 在 `blog` 資料夾內是 [部落格](https://www.ssangyongsports.org/blog/) 的檔案
