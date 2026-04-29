@@ -1,3 +1,15 @@
+/* ── Custom Navbar: hide Docusaurus default navbar shell, offset content ── */
+.navbar {
+  display: none !important;
+}
+.navbar-sidebar {
+  display: none !important;
+}
+/* Push page wrapper below main header (4rem) + sub-navbar (2.75rem) = 6.75rem */
+.main-wrapper {
+  margin-top: 6.75rem;
+}
+
 .hero-image-wrap {
   position: relative;
   display: -webkit-box;

@@ -53,83 +53,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        hideOnScroll: true,
-        logo: {
-          alt: '雙龍體育 Logo',
-          src: 'https://i.imgur.com/GhQm5zm.png',           
-             },
-        items: [
-           {
-          label: "體育",
-          position: "left",
-          items: [
-            {
-              label: "雙龍職棒",
-            href: 'https://slbtw.cf/',
-            },
-            {
-            label: '雙龍職籃',
-            href: 'https://sbatw.ml/',
-            },
-          ],
-        },
-      {
-          label: "支援",
-          position: "left",
-          items: [
-            {
-              label: "幫助中心",
-            href: 'https://help.ssangyongsports.eu.org/',
-            },
-            {
-            label: '論壇',
-            href: 'https://DISCUSS.ssangyongsports.org/',
-            },
-            {
-              label: "聯繫",
-              to: "/c",
-            },
-          ],
-        },
-         {
-          label: "組織",
-          position: "left",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog/",
-              activeBaseRegex: "/blog/?$",
-            },
-            {
-            label: '狀態',
-            href: 'https://status.ssangyongsports.eu.org/',
-            },
-          ],
-        },
-          {
-          label: "條款",
-          position: "left",
-          items: [
-            {
-              label: "隱私政策",
-              to: "/p",
-            },
-            {
-             label: "服務條款",
-              to: "/t",
-            },
-          ],
-        },
-        ],
+        items: [],
       },
-              announcementBar: {
-      id: 'announcementBar-2',
-      content:
-       '正在架設新官網',
-      backgroundColor: '#ffff',
-      textColor: '#091E42',
-      isCloseable: false,
-    },
           algolia: {
       apiKey: "7640fd8ca3b8204bd58b654f71607ab5",
       indexName: "docs",
